@@ -162,3 +162,46 @@ ALTER TABLE Transfert1
 
 select * from league ;
 -------------------
+
+select transfert.team_to, transfert.season, sum(transfert.transfert_fee) 
+from team, league, transfert
+where team.team_long_name = transfert.team_to 
+group by team.team_long_name, season;
+
+ALTER TABLE league
+ADD UNIQUE (name);
+
+set session sql_mode='STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION';
+
+
+--- first query  
+select transfert.team_to,season, sum(transfert.transfert_fee) AS fees
+from transfert
+group by team_to,season ;
+-----
+---second query 
+select transfert.team_to, transfert.season, league.country_name , sum(transfert.transfert_fee) 
+from team, league, transfert
+where team.team_long_name = transfert.team_to and league.name = transfert.league_to
+group by team.team_long_name, season;
+----
+select * from team ;
+select * from league;
+select * from transfert;
+
+
+--- UPDATE transfert SET  League_from = 'Italy Serie A', League_to = 'Italy Serie A'
+ ---WHERE League_to = ' Serie B'
+
+select * from 
+(select transfert.team_to, transfert.season, sum(transfert.transfert_fee) 
+from team, league, transfert
+where team.team_long_name = transfert.team_to 
+group by team.team_long_name, season
+select team_to, season, fees from
+group by team_to, season)
+group by team_to, season;
+
+
+
+SET GLOBAL sql_mode=(SELECT REPLACE(@@sql_mode,'ONLY_FULL_GROUP_BY',''));
