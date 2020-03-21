@@ -179,19 +179,15 @@ select transfert.team_to,season, sum(transfert.transfert_fee) AS fees
 from transfert
 group by team_to,season ;
 -----
----second query 
-select transfert.team_to, transfert.season, league.country_name , sum(transfert.transfert_fee) 
-from team, league, transfert
-where team.team_long_name = transfert.team_to and league.name = transfert.league_to
-group by team.team_long_name, season;
-----
+
 select * from team ;
 select * from league;
 select * from transfert;
 
+select * from transfert ;
 
---- UPDATE transfert SET  League_from = 'Italy Serie A', League_to = 'Italy Serie A'
- ---WHERE League_to = ' Serie B'
+UPDATE transfert SET  League_to = 'Netherlands Eredivisie'
+WHERE Team_to = 'FC Twente';
 
 select * from 
 (select transfert.team_to, transfert.season, sum(transfert.transfert_fee) 
@@ -202,6 +198,21 @@ select team_to, season, fees from
 group by team_to, season)
 group by team_to, season;
 
-
-
 SET GLOBAL sql_mode=(SELECT REPLACE(@@sql_mode,'ONLY_FULL_GROUP_BY',''));
+
+
+------------- 1er query -------------- 
+select transfert.team_to, transfert.season, league.country_name , sum(transfert.transfert_fee) as fees 
+from team, league, transfert
+where team.team_long_name = transfert.team_to and league.name = transfert.league_to
+group by team.team_long_name;
+---------------------------------
+
+--------------- 2nd query -------------- 
+SELECT transfert.team_to, league.country_name , RANK() OVER (ORDER BY sum(transfert.transfert_fee) desc) as fees 
+FROM team, league, transfert
+WHERE team.team_long_name = transfert.team_to and league.name = transfert.league_to
+GROUP BY team.team_long_name;
+-------------------------------------
+
+
