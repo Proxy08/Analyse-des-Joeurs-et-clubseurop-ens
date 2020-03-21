@@ -6,3 +6,6 @@ DataSet:
 > https://www.kaggle.com/hugomathien/soccer 
 -----
 > https://www.kaggle.com/vardan95ghazaryan/top-250-football-transfers-from-2000-to-2018
+-----
+
+> div class="flourish-embed flourish-bar-chart-race" data-src="visualisation/1629397"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
