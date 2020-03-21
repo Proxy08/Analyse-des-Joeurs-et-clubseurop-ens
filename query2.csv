@@ -1,4 +1,4 @@
-Team_to,Season,country_name,sum(transfert.transfert_fee)
+Team_to,Season,country_name,fees
 Arsenal,2000-2001,England,42600000
 Liverpool,2000-2001,England,9000000
 Chelsea,2000-2001,England,9400000
@@ -14,7 +14,6 @@ Manchester United,2001-2002,England,82100000
 Chelsea,2001-2002,England,44800000
 Arsenal,2001-2002,England,13500000
 Fulham,2001-2002,England,22500000
-Queens Park Rangers,2001-2002,England,9750000
 Newcastle United,2001-2002,England,16500000
 Liverpool,2001-2002,England,21700000
 Aston Villa,2001-2002,England,14300000
@@ -22,6 +21,7 @@ Everton,2001-2002,England,6750000
 Southampton,2001-2002,England,8650000
 West Ham United,2001-2002,England,4800000
 Leicester City,2001-2002,England,4500000
+Wolverhampton Wanderers,2001-2002,England,4500000
 Middlesbrough,2001-2002,England,5300000
 Portsmouth,2001-2002,England,2250000
 Manchester United,2002-2003,England,48230000
@@ -36,22 +36,21 @@ Everton,2002-2003,England,2850000
 Southampton,2002-2003,England,2250000
 Birmingham City,2002-2003,England,3650000
 Chelsea,2003-2004,England,143800000
+Arsenal,2003-2004,England,30250000
 Manchester United,2003-2004,England,47200000
 Tottenham Hotspur,2003-2004,England,26750000
 Blackburn Rovers,2003-2004,England,16350000
 Birmingham City,2003-2004,England,10500000
 Everton,2003-2004,England,9000000
 Liverpool,2003-2004,England,5250000
-AS Roma,2003-2004,England,23250000
 Southampton,2003-2004,England,4850000
-Arsenal,2003-2004,England,30250000
 Fulham,2003-2004,England,4500000
 Aston Villa,2003-2004,England,6380000
 Manchester City,2003-2004,England,2800000
 Wolverhampton Wanderers,2003-2004,England,4250000
 Portsmouth,2003-2004,England,2230000
+Wigan Athletic,2003-2004,England,2100000
 Middlesbrough,2003-2004,England,2000000
-Feyenoord,2003-2004,England,11500000
 Club Brugge,2003-2004,England,1200000
 Chelsea,2004-2005,England,165500000
 Manchester United,2004-2005,England,61250000
@@ -60,8 +59,6 @@ Newcastle United,2004-2005,England,28450000
 Birmingham City,2004-2005,England,11570000
 Everton,2004-2005,England,11200000
 Fulham,2004-2005,England,12000000
-FC Porto,2004-2005,England,42300000
-Queens Park Rangers,2004-2005,England,10750000
 Tottenham Hotspur,2004-2005,England,33000000
 Middlesbrough,2004-2005,England,6750000
 Norwich City,2004-2005,England,6000000
@@ -74,12 +71,10 @@ Crystal Palace,2004-2005,England,2250000
 Blackburn Rovers,2004-2005,England,2250000
 Wolverhampton Wanderers,2004-2005,England,3800000
 Chelsea,2005-2006,England,91200000
-Juventus,2005-2006,England,27700000
 Tottenham Hotspur,2005-2006,England,30910000
 Arsenal,2005-2006,England,45500000
 West Ham United,2005-2006,England,18890000
 Liverpool,2005-2006,England,31560000
-Olympique Lyonnais,2005-2006,England,45800000
 Newcastle United,2005-2006,England,39000000
 Manchester City,2005-2006,England,12100000
 Manchester United,2005-2006,England,14000000
@@ -90,9 +85,7 @@ Aston Villa,2005-2006,England,4700000
 Birmingham City,2005-2006,England,4500000
 West Bromwich Albion,2005-2006,England,6750000
 Portsmouth,2005-2006,England,3000000
-Stade Rennais FC,2005-2006,England,9000000
 Middlesbrough,2005-2006,England,2710000
-Hamburger SV,2005-2006,England,7600000
 Fulham,2005-2006,England,4300000
 Chelsea,2006-2007,England,67900000
 Manchester United,2006-2007,England,27200000
@@ -111,11 +104,8 @@ Portsmouth,2006-2007,England,4500000
 Fulham,2006-2007,England,11250000
 Reading,2006-2007,England,4500000
 Blackburn Rovers,2006-2007,England,7080000
-Juventus,2006-2007,England,4000000
 Crystal Palace,2006-2007,England,3750000
-Celtic,2006-2007,England,8400000
 Manchester City,2006-2007,England,6000000
-PSV Eindhoven,2006-2007,England,12000000
 Sunderland,2006-2007,England,3000000
 Manchester United,2007-2008,England,86300000
 Tottenham Hotspur,2007-2008,England,87150000
@@ -127,7 +117,6 @@ Aston Villa,2007-2008,England,18000000
 West Ham United,2007-2008,England,42100000
 Sunderland,2007-2008,England,40720000
 Portsmouth,2007-2008,England,45800000
-Olympique de Marseille,2007-2008,England,27000000
 Newcastle United,2007-2008,England,30600000
 Fulham,2007-2008,England,28200000
 Middlesbrough,2007-2008,England,25900000
@@ -148,14 +137,11 @@ Bolton Wanderers,2008-2009,England,19000000
 Chelsea,2008-2009,England,10000000
 Sunderland,2008-2009,England,20500000
 West Ham United,2008-2009,England,14800000
-Torino,2008-2009,England,7000000
 Stoke City,2008-2009,England,14800000
 Wigan Athletic,2008-2009,England,20000000
 Hull City,2008-2009,England,5300000
-AS Roma,2008-2009,England,27000000
 Middlesbrough,2008-2009,England,12800000
 Newcastle United,2008-2009,England,33280000
-Queens Park Rangers,2008-2009,England,8300000
 Blackburn Rovers,2008-2009,England,4400000
 Fulham,2008-2009,England,4100000
 West Bromwich Albion,2008-2009,England,13900000
@@ -172,7 +158,6 @@ Wolverhampton Wanderers,2009-2010,England,7600000
 Blackburn Rovers,2009-2010,England,11000000
 Stoke City,2009-2010,England,19950000
 West Ham United,2009-2010,England,14100000
-Fiorentina,2009-2010,England,23000000
 Birmingham City,2009-2010,England,16700000
 Wigan Athletic,2009-2010,England,5100000
 Burnley,2009-2010,England,4700000
@@ -191,11 +176,9 @@ Tottenham Hotspur,2010-2011,England,24100000
 Stoke City,2010-2011,England,16600000
 Manchester United,2010-2011,England,21800000
 Wolverhampton Wanderers,2010-2011,England,14050000
-TSG 1899 Hoffenheim,2010-2011,England,20200000
 Birmingham City,2010-2011,England,22800000
 Newcastle United,2010-2011,England,10280000
 West Ham United,2010-2011,England,9000000
-VfL Wolfsburg,2010-2011,England,44000000
 Wigan Athletic,2010-2011,England,7700000
 Blackburn Rovers,2010-2011,England,4000000
 Leicester City,2010-2011,England,3600000
@@ -206,7 +189,6 @@ Chelsea,2011-2012,England,92650000
 Liverpool,2011-2012,England,65200000
 Manchester United,2011-2012,England,62300000
 Arsenal,2011-2012,England,56100000
-FC Bayern Munich,2011-2012,England,49000000
 Newcastle United,2011-2012,England,22650000
 Fulham,2011-2012,England,12000000
 Stoke City,2011-2012,England,24800000
@@ -224,26 +206,28 @@ Bolton Wanderers,2011-2012,England,3600000
 Chelsea,2012-2013,England,103800000
 Manchester United,2012-2013,England,76450000
 Manchester City,2012-2013,England,61950000
+Arsenal,2012-2013,England,56000000
 Liverpool,2012-2013,England,64300000
 Southampton,2012-2013,England,27850000
 Sunderland,2012-2013,England,38300000
-Arsenal,2012-2013,England,56000000
-Hamburger SV,2012-2013,England,24500000
 Tottenham Hotspur,2012-2013,England,49000000
 Blackburn Rovers,2012-2013,England,13900000
 West Ham United,2012-2013,England,15500000
 Aston Villa,2012-2013,England,16350000
 Newcastle United,2012-2013,England,22700000
+Swansea City,2012-2013,England,7000000
 Stoke City,2012-2013,England,14400000
+Wigan Athletic,2012-2013,England,9800000
 Everton,2012-2013,England,17900000
 Fulham,2012-2013,England,5000000
 West Bromwich Albion,2012-2013,England,5000000
+Wolverhampton Wanderers,2012-2013,England,7300000
 Reading,2012-2013,England,3800000
+Arsenal,2013-2014,England,47000000
 Manchester United,2013-2014,England,77130000
 Manchester City,2013-2014,England,116000000
 Chelsea,2013-2014,England,123000000
 Tottenham Hotspur,2013-2014,England,121880000
-VfL Wolfsburg,2013-2014,England,48500000
 Liverpool,2013-2014,England,55900000
 West Ham United,2013-2014,England,23300000
 Swansea City,2013-2014,England,21900000
@@ -252,20 +236,17 @@ Fulham,2013-2014,England,25300000
 Southampton,2013-2014,England,24500000
 Norwich City,2013-2014,England,21800000
 Sunderland,2013-2014,England,17500000
-Juventus,2013-2014,England,33300000
 Hull City,2013-2014,England,22100000
-AS Roma,2013-2014,England,60500000
 West Bromwich Albion,2013-2014,England,12900000
 Aston Villa,2013-2014,England,11200000
 Crystal Palace,2013-2014,England,5300000
+Arsenal,2014-2015,England,112730000
 Chelsea,2014-2015,England,135200000
 Manchester United,2014-2015,England,186000000
 Everton,2014-2015,England,40160000
 Manchester City,2014-2015,England,85800000
-VfL Wolfsburg,2014-2015,England,32000000
 Liverpool,2014-2015,England,149430000
 Southampton,2014-2015,England,95540000
-Arsenal,2014-2015,England,112730000
 West Ham United,2014-2015,England,32250000
 Tottenham Hotspur,2014-2015,England,45870000
 West Bromwich Albion,2014-2015,England,18980000
@@ -275,8 +256,8 @@ Swansea City,2014-2015,England,31700000
 Leicester City,2014-2015,England,19100000
 Newcastle United,2014-2015,England,41020000
 Crystal Palace,2014-2015,England,20470000
-Borussia Dortmund,2014-2015,England,65200000
-AS Roma,2014-2015,England,55950000
+Watford,2014-2015,England,8000000
+Aston Villa,2014-2015,England,10200000
 Norwich City,2014-2015,England,9500000
 Manchester City,2015-2016,England,203000000
 Manchester United,2015-2016,England,156000000
@@ -294,14 +275,12 @@ Crystal Palace,2015-2016,England,23900000
 Bournemouth,2015-2016,England,43950000
 Burnley,2015-2016,England,12400000
 Aston Villa,2015-2016,England,60500000
-AS Monaco,2015-2016,England,76060000
 Middlesbrough,2015-2016,England,25400000
 Sunderland,2015-2016,England,50900000
 Leicester City,2015-2016,England,40600000
 Norwich City,2015-2016,England,31900000
 Watford,2015-2016,England,70230000
 Swansea City,2015-2016,England,16200000
-Hamburger SV,2015-2016,England,6500000
 Manchester United,2016-2017,England,185000000
 Manchester City,2016-2017,England,201100000
 Arsenal,2016-2017,England,100000000
@@ -310,21 +289,19 @@ Chelsea,2016-2017,England,132800000
 Tottenham Hotspur,2016-2017,England,71500000
 Crystal Palace,2016-2017,England,97900000
 Leicester City,2016-2017,England,83100000
-Olympique de Marseille,2016-2017,England,46300000
 Everton,2016-2017,England,83100000
 West Ham United,2016-2017,England,70800000
 Southampton,2016-2017,England,64200000
 Bournemouth,2016-2017,England,31500000
-Olympique Lyonnais,2016-2017,England,16000000
+Swansea City,2016-2017,England,18000000
 Stoke City,2016-2017,England,29400000
 Hull City,2016-2017,England,24400000
 West Bromwich Albion,2016-2017,England,33200000
 Burnley,2016-2017,England,35500000
-AS Roma,2016-2017,England,65000000
 Watford,2016-2017,England,52850000
+Wolverhampton Wanderers,2016-2017,England,23000000
 Aston Villa,2016-2017,England,32700000
 Newcastle United,2016-2017,England,37200000
-TSG 1899 Hoffenheim,2016-2017,England,11000000
 Middlesbrough,2016-2017,England,32750000
 Sunderland,2016-2017,England,9500000
 Norwich City,2016-2017,England,9400000
@@ -342,17 +319,13 @@ Bournemouth,2017-2018,England,34300000
 West Ham United,2017-2018,England,32500000
 Southampton,2017-2018,England,55400000
 Watford,2017-2018,England,51200000
-Juventus,2017-2018,England,121200000
 Stoke City,2017-2018,England,43100000
+Wolverhampton Wanderers,2017-2018,England,17900000
 Middlesbrough,2017-2018,England,35700000
 Burnley,2017-2018,England,25500000
 West Bromwich Albion,2017-2018,England,43600000
 Newcastle United,2017-2018,England,28800000
-Olympique de Marseille,2017-2018,England,44000000
-Stade Rennais FC,2017-2018,England,35000000
-Olympique Lyonnais,2017-2018,England,28000000
 Fulham,2017-2018,England,9130000
-TSG 1899 Hoffenheim,2017-2018,England,8000000
 Reading,2017-2018,England,8000000
 Manchester City,2018-2019,England,67800000
 Liverpool,2018-2019,England,182200000
@@ -364,23 +337,19 @@ Fulham,2018-2019,England,56200000
 Arsenal,2018-2019,England,49000000
 Southampton,2018-2019,England,62250000
 Leicester City,2018-2019,England,61000000
-AFC Ajax,2018-2019,England,41650000
-SV Werder Bremen,2018-2019,England,18000000
-Stoke City,2018-2019,England,37500000
 Wolverhampton Wanderers,2018-2019,England,43000000
+Stoke City,2018-2019,England,37500000
+Watford,2018-2019,England,18000000
 Bournemouth,2018-2019,England,23300000
-FC Porto,2018-2019,England,8000000
 Middlesbrough,2018-2019,England,13700000
 West Bromwich Albion,2018-2019,England,11850000
-PSV Eindhoven,2018-2019,England,11000000
-Watford,2018-2019,England,18000000
 Paris Saint-Germain,2000-2001,France,47950000
 Stade Rennais FC,2000-2001,France,34800000
 Olympique de Marseille,2001-2002,France,11500000
 Paris Saint-Germain,2001-2002,France,18100000
 Olympique Lyonnais,2001-2002,France,8800000
-Girondins de Bordeaux,2001-2002,France,12000000
 AS Monaco,2001-2002,France,13000000
+Girondins de Bordeaux,2001-2002,France,12000000
 FC Nantes,2001-2002,France,3800000
 Stade Rennais FC,2001-2002,France,6800000
 RC Lens,2001-2002,France,1800000
@@ -401,15 +370,17 @@ AS Monaco,2003-2004,France,3200000
 Stade Rennais FC,2003-2004,France,1500000
 Paris Saint-Germain,2004-2005,France,25000000
 Olympique de Marseille,2004-2005,France,24000000
-Olympique Lyonnais,2004-2005,France,26250000
 AS Monaco,2004-2005,France,13000000
+Olympique Lyonnais,2004-2005,France,26250000
 FC Sochaux-Montbéliard,2004-2005,France,3000000
 Toulouse FC,2004-2005,France,3000000
 Standard Liège,2004-2005,France,3000000
 Stade Rennais FC,2004-2005,France,4200000
 RC Lens,2004-2005,France,2000000
+Olympique Lyonnais,2005-2006,France,45800000
 Paris Saint-Germain,2005-2006,France,14500000
 Olympique de Marseille,2005-2006,France,13500000
+Stade Rennais FC,2005-2006,France,9000000
 AS Monaco,2005-2006,France,6000000
 Toulouse FC,2005-2006,France,8400000
 AJ Auxerre,2005-2006,France,5000000
@@ -421,6 +392,7 @@ FC Sochaux-Montbéliard,2005-2006,France,2000000
 Girondins de Bordeaux,2006-2007,France,9000000
 Olympique Lyonnais,2006-2007,France,21950000
 AS Saint-Étienne,2006-2007,France,6000000
+AS Monaco,2006-2007,France,12000000
 Stade Rennais FC,2006-2007,France,10000000
 AJ Auxerre,2006-2007,France,12300000
 Paris Saint-Germain,2006-2007,France,9000000
@@ -428,10 +400,11 @@ Toulouse FC,2006-2007,France,5000000
 RC Lens,2006-2007,France,7100000
 OGC Nice,2006-2007,France,11500000
 Olympique de Marseille,2006-2007,France,6000000
-AS Monaco,2006-2007,France,12000000
+LOSC Lille,2006-2007,France,3000000
 FC Nantes,2006-2007,France,2500000
-Girondins de Bordeaux,2007-2008,France,13400000
+Olympique de Marseille,2007-2008,France,27000000
 Olympique Lyonnais,2007-2008,France,26100000
+Girondins de Bordeaux,2007-2008,France,13400000
 AS Monaco,2007-2008,France,12000000
 Paris Saint-Germain,2007-2008,France,10000000
 RC Lens,2007-2008,France,5000000
@@ -439,13 +412,13 @@ AS Saint-Étienne,2007-2008,France,9000000
 Toulouse FC,2007-2008,France,4500000
 Olympique Lyonnais,2008-2009,France,43800000
 Olympique de Marseille,2008-2009,France,32000000
+Stade Rennais FC,2008-2009,France,8000000
 OGC Nice,2008-2009,France,8000000
 Paris Saint-Germain,2008-2009,France,8000000
-FC Porto,2008-2009,France,23500000
+LOSC Lille,2008-2009,France,15000000
 Girondins de Bordeaux,2008-2009,France,6500000
 SM Caen,2008-2009,France,5000000
 AS Saint-Étienne,2008-2009,France,4000000
-LOSC Lille,2008-2009,France,15000000
 FC Nantes,2008-2009,France,3900000
 Olympique Lyonnais,2009-2010,France,79200000
 Olympique de Marseille,2009-2010,France,37500000
@@ -453,7 +426,6 @@ Stade Rennais FC,2009-2010,France,14500000
 Paris Saint-Germain,2009-2010,France,12200000
 Girondins de Bordeaux,2009-2010,France,25500000
 LOSC Lille,2009-2010,France,6500000
-Celtic,2009-2010,France,4400000
 AS Monaco,2009-2010,France,4000000
 Toulouse FC,2009-2010,France,3500000
 Olympique Lyonnais,2010-2011,France,28000000
@@ -466,14 +438,14 @@ Paris Saint-Germain,2011-2012,France,92900000
 LOSC Lille,2011-2012,France,17000000
 Stade Rennais FC,2011-2012,France,14100000
 Toulouse FC,2011-2012,France,9800000
+AS Monaco,2011-2012,France,10500000
 Olympique de Marseille,2011-2012,France,8500000
 Paris Saint-Germain,2012-2013,France,149950000
+AS Monaco,2012-2013,France,21000000
 LOSC Lille,2012-2013,France,10000000
 FC Lorient,2012-2013,France,9000000
 Montpellier Hérault SC,2012-2013,France,8500000
-AS Monaco,2012-2013,France,4000000
 AS Saint-Étienne,2012-2013,France,4000000
-Wolverhampton Wanderers,2012-2013,France,7300000
 Paris Saint-Germain,2013-2014,France,135900000
 AS Monaco,2013-2014,France,157000000
 Olympique de Marseille,2013-2014,France,24700000
@@ -481,26 +453,29 @@ AS Saint-Étienne,2013-2014,France,14500000
 Stade Rennais FC,2013-2014,France,5000000
 Paris Saint-Germain,2014-2015,France,49500000
 AS Monaco,2014-2015,France,36750000
-FC Porto,2014-2015,France,36400000
 Olympique de Marseille,2014-2015,France,20500000
 Paris Saint-Germain,2015-2016,France,116100000
+AS Monaco,2015-2016,France,76060000
+Olympique Lyonnais,2015-2016,France,34500000
 Olympique de Marseille,2015-2016,France,7500000
 AS Saint-Étienne,2015-2016,France,7500000
-Olympique Lyonnais,2015-2016,France,34500000
 Paris Saint-Germain,2016-2017,France,132500000
+Olympique de Marseille,2016-2017,France,46300000
+Olympique Lyonnais,2016-2017,France,16000000
 AS Monaco,2016-2017,France,39000000
-Wolverhampton Wanderers,2016-2017,France,23000000
 LOSC Lille,2016-2017,France,7000000
 Paris Saint-Germain,2017-2018,France,238000000
 AS Monaco,2017-2018,France,120000000
-AS Saint-Étienne,2017-2018,France,10000000
+Stade Rennais FC,2017-2018,France,35000000
+Olympique de Marseille,2017-2018,France,44000000
 LOSC Lille,2017-2018,France,52500000
+Olympique Lyonnais,2017-2018,France,28000000
+AS Saint-Étienne,2017-2018,France,10000000
 OGC Nice,2017-2018,France,10000000
 Girondins de Bordeaux,2017-2018,France,15500000
 Paris Saint-Germain,2018-2019,France,135000000
 AS Monaco,2018-2019,France,60000000
 Olympique de Marseille,2018-2019,France,29000000
-Celtic,2018-2019,France,10300000
 OGC Nice,2018-2019,France,15000000
 AS Saint-Étienne,2018-2019,France,7000000
 RC Deportivo de La Coruña,2018-2019,France,6000000
@@ -526,7 +501,6 @@ VfL Wolfsburg,2003-2004,Germany,2850000
 FC Schalke 04,2003-2004,Germany,1800000
 FC Bayern Munich,2004-2005,Germany,23250000
 SV Werder Bremen,2004-2005,Germany,5000000
-AFC Ajax,2004-2005,Germany,4900000
 Hamburger SV,2004-2005,Germany,5300000
 Bayer 04 Leverkusen,2004-2005,Germany,3500000
 VfL Wolfsburg,2004-2005,Germany,5000000
@@ -535,6 +509,7 @@ Hertha BSC Berlin,2004-2005,Germany,1500000
 FC Bayern Munich,2005-2006,Germany,8500000
 VfB Stuttgart,2005-2006,Germany,7500000
 FC Schalke 04,2005-2006,Germany,11900000
+Hamburger SV,2005-2006,Germany,7600000
 SV Werder Bremen,2005-2006,Germany,12400000
 VfL Wolfsburg,2005-2006,Germany,4000000
 Hamburger SV,2006-2007,Germany,20300000
@@ -543,23 +518,26 @@ Bayer 04 Leverkusen,2006-2007,Germany,9280000
 SV Werder Bremen,2006-2007,Germany,13700000
 VfL Wolfsburg,2006-2007,Germany,3600000
 VfB Stuttgart,2006-2007,Germany,6500000
+Borussia Dortmund,2006-2007,Germany,2900000
 1. FSV Mainz 05,2006-2007,Germany,2800000
 Hertha BSC Berlin,2006-2007,Germany,2600000
 FC Bayern Munich,2007-2008,Germany,91000000
 VfL Wolfsburg,2007-2008,Germany,15500000
 VfB Stuttgart,2007-2008,Germany,7000000
+TSG 1899 Hoffenheim,2007-2008,Germany,12000000
 Hamburger SV,2007-2008,Germany,6500000
 Bayer 04 Leverkusen,2007-2008,Germany,9900000
-Feyenoord,2007-2008,Germany,5000000
 FC Schalke 04,2007-2008,Germany,5000000
 SV Werder Bremen,2007-2008,Germany,9500000
 Hannover 96,2007-2008,Germany,4500000
 Hertha BSC Berlin,2007-2008,Germany,4300000
+VfL Wolfsburg,2008-2009,Germany,25000000
 FC Schalke 04,2008-2009,Germany,15500000
 Hamburger SV,2008-2009,Germany,30500000
+Bayer 04 Leverkusen,2008-2009,Germany,5200000
 VfB Stuttgart,2008-2009,Germany,5000000
 Borussia Dortmund,2008-2009,Germany,4500000
-VfL Wolfsburg,2008-2009,Germany,25000000
+TSG 1899 Hoffenheim,2008-2009,Germany,4500000
 FC Bayern Munich,2009-2010,Germany,62700000
 VfL Wolfsburg,2009-2010,Germany,21200000
 1. FC Köln,2009-2010,Germany,10000000
@@ -568,13 +546,16 @@ SV Werder Bremen,2009-2010,Germany,8200000
 VfB Stuttgart,2009-2010,Germany,12800000
 TSG 1899 Hoffenheim,2009-2010,Germany,16100000
 Borussia Dortmund,2009-2010,Germany,8400000
-PSV Eindhoven,2009-2010,Germany,4000000
+Bayer 04 Leverkusen,2009-2010,Germany,3800000
 FC Bayern Munich,2010-2011,Germany,17000000
+VfL Wolfsburg,2010-2011,Germany,44000000
 FC Schalke 04,2010-2011,Germany,25000000
 Hamburger SV,2010-2011,Germany,13000000
 SV Werder Bremen,2010-2011,Germany,13700000
+TSG 1899 Hoffenheim,2010-2011,Germany,20200000
 Borussia Dortmund,2010-2011,Germany,4750000
 VfB Stuttgart,2010-2011,Germany,3900000
+FC Bayern Munich,2011-2012,Germany,49000000
 Bayer 04 Leverkusen,2011-2012,Germany,18500000
 VfL Wolfsburg,2011-2012,Germany,27300000
 Borussia Dortmund,2011-2012,Germany,11000000
@@ -582,39 +563,46 @@ SV Werder Bremen,2011-2012,Germany,5000000
 VfB Stuttgart,2011-2012,Germany,4500000
 Hamburger SV,2011-2012,Germany,4000000
 FC Schalke 04,2011-2012,Germany,3800000
-Borussia Dortmund,2012-2013,Germany,22600000
 FC Bayern Munich,2012-2013,Germany,69500000
+Borussia Dortmund,2012-2013,Germany,22600000
+Hamburger SV,2012-2013,Germany,24500000
 VfL Wolfsburg,2012-2013,Germany,19800000
 Bayer 04 Leverkusen,2012-2013,Germany,16700000
 TSG 1899 Hoffenheim,2012-2013,Germany,15500000
+SV Werder Bremen,2012-2013,Germany,9000000
 FC Schalke 04,2012-2013,Germany,4000000
 FC Bayern Munich,2013-2014,Germany,62000000
 Borussia Dortmund,2013-2014,Germany,50400000
+VfL Wolfsburg,2013-2014,Germany,48500000
 FC Schalke 04,2013-2014,Germany,18000000
 Bayer 04 Leverkusen,2013-2014,Germany,15000000
 1. FSV Mainz 05,2013-2014,Germany,5000000
 SC Freiburg,2013-2014,Germany,4000000
+VfL Wolfsburg,2014-2015,Germany,32000000
+FC Bayern Munich,2014-2015,Germany,47000000
+Borussia Dortmund,2014-2015,Germany,65200000
 Bayer 04 Leverkusen,2014-2015,Germany,34800000
 Hamburger SV,2014-2015,Germany,19000000
 TSG 1899 Hoffenheim,2014-2015,Germany,11500000
 SC Freiburg,2014-2015,Germany,6000000
 VfB Stuttgart,2014-2015,Germany,6000000
-PSV Eindhoven,2014-2015,Germany,5500000
 Hannover 96,2014-2015,Germany,9300000
 SV Werder Bremen,2014-2015,Germany,4500000
 Hertha BSC Berlin,2014-2015,Germany,4000000
 VfL Wolfsburg,2015-2016,Germany,55000000
 FC Bayern Munich,2015-2016,Germany,76000000
-Borussia Dortmund,2015-2016,Germany,11000000
 Bayer 04 Leverkusen,2015-2016,Germany,46000000
+Borussia Dortmund,2015-2016,Germany,11000000
 FC Schalke 04,2015-2016,Germany,26000000
+Hamburger SV,2015-2016,Germany,6500000
+TSG 1899 Hoffenheim,2015-2016,Germany,6000000
 FC Bayern Munich,2016-2017,Germany,70000000
 Borussia Dortmund,2016-2017,Germany,117350000
 FC Schalke 04,2016-2017,Germany,30500000
 Bayer 04 Leverkusen,2016-2017,Germany,51500000
 Hamburger SV,2016-2017,Germany,29700000
 VfL Wolfsburg,2016-2017,Germany,59000000
-Sporting CP,2016-2017,Germany,11850000
+TSG 1899 Hoffenheim,2016-2017,Germany,11000000
 SV Werder Bremen,2016-2017,Germany,7500000
 FC Augsburg,2016-2017,Germany,7000000
 1. FSV Mainz 05,2016-2017,Germany,6500000
@@ -626,10 +614,12 @@ VfL Wolfsburg,2017-2018,Germany,45000000
 1. FC Köln,2017-2018,Germany,24000000
 Hannover 96,2017-2018,Germany,9000000
 Hertha BSC Berlin,2017-2018,Germany,8000000
+TSG 1899 Hoffenheim,2017-2018,Germany,8000000
 Eintracht Frankfurt,2017-2018,Germany,7000000
 Borussia Dortmund,2018-2019,Germany,53000000
-VfL Wolfsburg,2018-2019,Germany,31500000
 Bayer 04 Leverkusen,2018-2019,Germany,30500000
+VfL Wolfsburg,2018-2019,Germany,31500000
+SV Werder Bremen,2018-2019,Germany,18000000
 FC Schalke 04,2018-2019,Germany,28000000
 FC Bayern Munich,2018-2019,Germany,10000000
 VfB Stuttgart,2018-2019,Germany,20000000
@@ -667,6 +657,7 @@ Brescia,2002-2003,Italy,4550000
 Udinese Calcio,2002-2003,Italy,3500000
 SSC Napoli,2002-2003,Italy,950000
 Inter,2003-2004,Italy,33200000
+AS Roma,2003-2004,Italy,23250000
 Lazio,2003-2004,Italy,14830000
 AC Milan,2003-2004,Italy,10250000
 Juventus,2003-2004,Italy,15000000
@@ -684,15 +675,15 @@ Inter,2004-2005,Italy,5950000
 Catania,2004-2005,Italy,3200000
 Bari,2004-2005,Italy,2000000
 AC Milan,2005-2006,Italy,33500000
+Juventus,2005-2006,Italy,27700000
 Inter,2005-2006,Italy,28000000
 Fiorentina,2005-2006,Italy,27000000
 US Palermo,2005-2006,Italy,8000000
 Lazio,2005-2006,Italy,6000000
 Udinese Calcio,2005-2006,Italy,5000000
 Cagliari Calcio,2005-2006,Italy,5000000
-Celtic,2005-2006,Italy,4200000
 Parma,2005-2006,Italy,4150000
-Sporting CP,2005-2006,Italy,5500000
+Torino,2005-2006,Italy,3600000
 Le Mans FC,2005-2006,Italy,3500000
 Inter,2006-2007,Italy,46600000
 AC Milan,2006-2007,Italy,38050000
@@ -702,23 +693,20 @@ Fiorentina,2006-2007,Italy,14800000
 Sampdoria,2006-2007,Italy,8250000
 Le Mans FC,2006-2007,Italy,4500000
 Torino,2006-2007,Italy,4100000
+Juventus,2006-2007,Italy,4000000
 Lazio,2006-2007,Italy,9650000
 Chievo Verona,2006-2007,Italy,3000000
-LOSC Lille,2006-2007,Italy,3000000
 Udinese Calcio,2006-2007,Italy,5700000
-Borussia Dortmund,2006-2007,Italy,2900000
 AC Milan,2007-2008,Italy,29000000
 AS Roma,2007-2008,Italy,48800000
 Inter,2007-2008,Italy,36500000
 Juventus,2007-2008,Italy,36500000
 Udinese Calcio,2007-2008,Italy,15800000
 Brescia,2007-2008,Italy,7000000
-TSG 1899 Hoffenheim,2007-2008,Italy,7000000
 SSC Napoli,2007-2008,Italy,31900000
 Fiorentina,2007-2008,Italy,14500000
 Parma,2007-2008,Italy,10200000
 US Palermo,2007-2008,Italy,17300000
-Celtic,2007-2008,Italy,4500000
 Sampdoria,2007-2008,Italy,4500000
 Siena,2007-2008,Italy,3950000
 AC Milan,2008-2009,Italy,59250000
@@ -726,18 +714,16 @@ Inter,2008-2009,Italy,47700000
 Juventus,2008-2009,Italy,32550000
 Fiorentina,2008-2009,Italy,34800000
 Genoa,2008-2009,Italy,42800000
+AS Roma,2008-2009,Italy,27000000
 Atalanta,2008-2009,Italy,10500000
-Real Zaragoza,2008-2009,Italy,10000000
 Sampdoria,2008-2009,Italy,15700000
 SSC Napoli,2008-2009,Italy,26300000
-Stade Rennais FC,2008-2009,Italy,8000000
 US Palermo,2008-2009,Italy,37350000
 Lazio,2008-2009,Italy,7500000
+Torino,2008-2009,Italy,7000000
 Cagliari Calcio,2008-2009,Italy,16500000
 Bologna,2008-2009,Italy,14300000
-Bayer 04 Leverkusen,2008-2009,Italy,5200000
 Udinese Calcio,2008-2009,Italy,4500000
-TSG 1899 Hoffenheim,2008-2009,Italy,4500000
 Juventus,2009-2010,Italy,55300000
 Inter,2009-2010,Italy,94200000
 Lazio,2009-2010,Italy,20200000
@@ -747,6 +733,7 @@ Genoa,2009-2010,Italy,61300000
 Bari,2009-2010,Italy,10500000
 Parma,2009-2010,Italy,13600000
 US Palermo,2009-2010,Italy,12000000
+Fiorentina,2009-2010,Italy,23000000
 Sampdoria,2009-2010,Italy,8500000
 Bologna,2009-2010,Italy,8500000
 Brescia,2009-2010,Italy,5000000
@@ -768,7 +755,6 @@ AS Roma,2010-2011,Italy,8000000
 Sampdoria,2010-2011,Italy,12200000
 Parma,2010-2011,Italy,20000000
 Fiorentina,2010-2011,Italy,18300000
-FC Porto,2010-2011,Italy,28350000
 US Palermo,2010-2011,Italy,19500000
 Atalanta,2010-2011,Italy,4700000
 Bari,2010-2011,Italy,4500000
@@ -779,7 +765,6 @@ AC Milan,2011-2012,Italy,47000000
 SSC Napoli,2011-2012,Italy,61500000
 AS Roma,2011-2012,Italy,69430000
 Juventus,2011-2012,Italy,95930000
-FC Porto,2011-2012,Italy,35350000
 Inter,2011-2012,Italy,32900000
 US Palermo,2011-2012,Italy,26300000
 Genoa,2011-2012,Italy,25500000
@@ -798,9 +783,7 @@ SSC Napoli,2012-2013,Italy,15500000
 Genoa,2012-2013,Italy,15000000
 Torino,2012-2013,Italy,10300000
 Chievo Verona,2012-2013,Italy,6500000
-FC Twente,2012-2013,Italy,11500000
 AS Roma,2012-2013,Italy,22450000
-SV Werder Bremen,2012-2013,Italy,9000000
 Udinese Calcio,2012-2013,Italy,9300000
 Atalanta,2012-2013,Italy,10050000
 Parma,2012-2013,Italy,12100000
@@ -811,6 +794,8 @@ Sampdoria,2012-2013,Italy,3500000
 SSC Napoli,2013-2014,Italy,104950000
 Fiorentina,2013-2014,Italy,49000000
 Inter,2013-2014,Italy,50250000
+AS Roma,2013-2014,Italy,60500000
+Juventus,2013-2014,Italy,33300000
 Sampdoria,2013-2014,Italy,11500000
 AC Milan,2013-2014,Italy,31500000
 Sassuolo,2013-2014,Italy,29200000
@@ -818,14 +803,13 @@ Lazio,2013-2014,Italy,24100000
 Genoa,2013-2014,Italy,8880000
 Atalanta,2013-2014,Italy,4200000
 Udinese Calcio,2013-2014,Italy,8000000
-FC Bayern Munich,2014-2015,Italy,47000000
-SSC Napoli,2014-2015,Italy,31550000
 Juventus,2014-2015,Italy,39600000
+AS Roma,2014-2015,Italy,55950000
+SSC Napoli,2014-2015,Italy,31550000
 SC Braga,2014-2015,Italy,14000000
 Sampdoria,2014-2015,Italy,12900000
 Torino,2014-2015,Italy,12800000
 Inter,2014-2015,Italy,8000000
-Watford,2014-2015,Italy,8000000
 AC Milan,2014-2015,Italy,11250000
 Lazio,2014-2015,Italy,11500000
 Parma,2014-2015,Italy,5750000
@@ -836,30 +820,30 @@ Juventus,2015-2016,Italy,141000000
 Inter,2015-2016,Italy,78000000
 AC Milan,2015-2016,Italy,83000000
 Lazio,2015-2016,Italy,28500000
+Fiorentina,2015-2016,Italy,15000000
 Sampdoria,2015-2016,Italy,20000000
 SSC Napoli,2015-2016,Italy,26500000
 Sassuolo,2015-2016,Italy,17000000
 AS Roma,2015-2016,Italy,21500000
 Bologna,2015-2016,Italy,8500000
 Torino,2015-2016,Italy,14400000
-TSG 1899 Hoffenheim,2015-2016,Italy,6000000
 Juventus,2016-2017,Italy,181800000
 Inter,2016-2017,Italy,110350000
 SSC Napoli,2016-2017,Italy,88500000
-AFC Ajax,2016-2017,Italy,23000000
+AS Roma,2016-2017,Italy,65000000
 Sampdoria,2016-2017,Italy,10000000
 Torino,2016-2017,Italy,9000000
 AC Milan,2016-2017,Italy,16500000
 Lazio,2016-2017,Italy,17450000
 Bologna,2016-2017,Italy,6500000
 AC Milan,2017-2018,Italy,158000000
+Juventus,2017-2018,Italy,121200000
 Inter,2017-2018,Italy,99000000
 SSC Napoli,2017-2018,Italy,53000000
 Sampdoria,2017-2018,Italy,24000000
 AS Roma,2017-2018,Italy,57900000
 Atalanta,2017-2018,Italy,13500000
 Fiorentina,2017-2018,Italy,17000000
-Sporting CP,2017-2018,Italy,17190000
 Cagliari Calcio,2017-2018,Italy,7600000
 Juventus,2018-2019,Italy,221900000
 Inter,2018-2019,Italy,61000000
@@ -887,23 +871,28 @@ Feyenoord,2001-2002,Netherlands,5500000
 PSV Eindhoven,2002-2003,Netherlands,8600000
 Vitesse,2002-2003,Netherlands,2000000
 AZ Alkmaar,2002-2003,Netherlands,950000
+Feyenoord,2003-2004,Netherlands,11500000
 AFC Ajax,2003-2004,Netherlands,9500000
+AFC Ajax,2004-2005,Netherlands,4900000
 PSV Eindhoven,2004-2005,Netherlands,9500000
 AFC Ajax,2005-2006,Netherlands,14300000
 PSV Eindhoven,2005-2006,Netherlands,5000000
 Feyenoord,2005-2006,Netherlands,2500000
 Vitesse,2005-2006,Netherlands,2000000
+PSV Eindhoven,2006-2007,Netherlands,12000000
 AZ Alkmaar,2006-2007,Netherlands,6500000
 Feyenoord,2006-2007,Netherlands,2500000
 AFC Ajax,2007-2008,Netherlands,7500000
 PSV Eindhoven,2007-2008,Netherlands,12900000
 AZ Alkmaar,2007-2008,Netherlands,15000000
+Feyenoord,2007-2008,Netherlands,5000000
 FC Groningen,2007-2008,Netherlands,4000000
 AFC Ajax,2008-2009,Netherlands,27250000
 Feyenoord,2008-2009,Netherlands,5000000
 PSV Eindhoven,2008-2009,Netherlands,4000000
 AFC Ajax,2009-2010,Netherlands,12000000
 FC Twente,2009-2010,Netherlands,5500000
+PSV Eindhoven,2009-2010,Netherlands,4000000
 Feyenoord,2009-2010,Netherlands,3500000
 FC Twente,2010-2011,Netherlands,10500000
 AFC Ajax,2010-2011,Netherlands,5000000
@@ -911,52 +900,79 @@ Vitesse,2010-2011,Netherlands,4000000
 PSV Eindhoven,2010-2011,Netherlands,7300000
 PSV Eindhoven,2011-2012,Netherlands,25000000
 FC Twente,2011-2012,Netherlands,5500000
-Sporting CP,2011-2012,Netherlands,17430000
 FC Utrecht,2011-2012,Netherlands,4800000
 AFC Ajax,2011-2012,Netherlands,4000000
+FC Twente,2012-2013,Netherlands,11500000
 PSV Eindhoven,2012-2013,Netherlands,4100000
 AFC Ajax,2012-2013,Netherlands,4000000
 PSV Eindhoven,2013-2014,Netherlands,8000000
 AFC Ajax,2014-2015,Netherlands,7000000
-FC Porto,2015-2016,Netherlands,10500000
+PSV Eindhoven,2014-2015,Netherlands,5500000
 PSV Eindhoven,2015-2016,Netherlands,7000000
 AFC Ajax,2015-2016,Netherlands,6000000
+AFC Ajax,2016-2017,Netherlands,23000000
 PSV Eindhoven,2017-2018,Netherlands,8000000
 AFC Ajax,2017-2018,Netherlands,7500000
+AFC Ajax,2018-2019,Netherlands,41650000
+PSV Eindhoven,2018-2019,Netherlands,11000000
 SL Benfica,2000-2001,Portugal,11500000
 SL Benfica,2001-2002,Portugal,14500000
+Sporting CP,2001-2002,Portugal,4500000
 FC Porto,2002-2003,Portugal,3000000
 SL Benfica,2003-2004,Portugal,15000000
 Sporting CP,2003-2004,Portugal,3200000
+FC Porto,2004-2005,Portugal,42300000
 SL Benfica,2004-2005,Portugal,1750000
 FC Porto,2005-2006,Portugal,12550000
+Sporting CP,2005-2006,Portugal,5500000
 SL Benfica,2006-2007,Portugal,3500000
 SL Benfica,2007-2008,Portugal,19670000
 FC Porto,2007-2008,Portugal,4000000
 SL Benfica,2008-2009,Portugal,18500000
+FC Porto,2008-2009,Portugal,23500000
 Sporting CP,2008-2009,Portugal,4500000
 SL Benfica,2009-2010,Portugal,23500000
+Sporting CP,2009-2010,Portugal,10140000
 FC Porto,2009-2010,Portugal,16930000
+FC Porto,2010-2011,Portugal,28350000
 SL Benfica,2010-2011,Portugal,18980000
 Sporting CP,2010-2011,Portugal,3300000
+FC Porto,2011-2012,Portugal,35350000
 SL Benfica,2011-2012,Portugal,25000000
+Sporting CP,2011-2012,Portugal,17430000
 SL Benfica,2012-2013,Portugal,27000000
 FC Porto,2012-2013,Portugal,8890000
 Sporting CP,2012-2013,Portugal,4000000
 SL Benfica,2013-2014,Portugal,49100000
 FC Porto,2013-2014,Portugal,28000000
+FC Porto,2014-2015,Portugal,36400000
 SL Benfica,2014-2015,Portugal,15200000
 RSC Anderlecht,2014-2015,Portugal,6000000
 SL Benfica,2015-2016,Portugal,22000000
+FC Porto,2015-2016,Portugal,10500000
 SL Benfica,2016-2017,Portugal,23000000
+Sporting CP,2016-2017,Portugal,11850000
 FC Porto,2016-2017,Portugal,13000000
-Wolverhampton Wanderers,2017-2018,Portugal,17900000
+FC Porto,2017-2018,Portugal,20000000
+Sporting CP,2017-2018,Portugal,17190000
+FC Porto,2018-2019,Portugal,8000000
 SL Benfica,2018-2019,Portugal,6850000
 Sporting CP,2018-2019,Portugal,6500000
 Queens Park Rangers,2000-2001,Scotland,3000000
 Celtic,2000-2001,Scotland,2250000
-Wolverhampton Wanderers,2001-2002,Scotland,4500000
+Queens Park Rangers,2001-2002,Scotland,9750000
+Queens Park Rangers,2002-2003,Scotland,7900000
 Celtic,2002-2003,Scotland,1500000
+Queens Park Rangers,2004-2005,Scotland,10750000
+Celtic,2005-2006,Scotland,7300000
+Celtic,2006-2007,Scotland,8400000
+Queens Park Rangers,2006-2007,Scotland,3000000
+Celtic,2007-2008,Scotland,11100000
+Queens Park Rangers,2008-2009,Scotland,12300000
+Celtic,2009-2010,Scotland,4400000
+Queens Park Rangers,2010-2011,Scotland,4900000
+Celtic,2015-2016,Scotland,7500000
+Celtic,2018-2019,Scotland,10300000
 Real Madrid CF,2000-2001,Spain,90750000
 FC Barcelona,2000-2001,Spain,55000000
 Valencia CF,2000-2001,Spain,34550000
@@ -970,7 +986,6 @@ Real Sociedad,2001-2002,Spain,5000000
 Real Betis,2001-2002,Spain,5000000
 Real Zaragoza,2001-2002,Spain,2250000
 Real Madrid CF,2002-2003,Spain,45000000
-Queens Park Rangers,2002-2003,Spain,7900000
 Atlético Madrid,2002-2003,Spain,9500000
 RCD Espanyol,2002-2003,Spain,6000000
 Real Zaragoza,2002-2003,Spain,2700000
@@ -1029,6 +1044,7 @@ Athletic Club de Bilbao,2007-2008,Spain,5800000
 Real Zaragoza,2007-2008,Spain,4500000
 FC Barcelona,2008-2009,Spain,96000000
 Real Madrid CF,2008-2009,Spain,76000000
+Real Zaragoza,2008-2009,Spain,10000000
 Atlético Madrid,2008-2009,Spain,20000000
 Real Betis,2008-2009,Spain,32000000
 Sevilla FC,2008-2009,Spain,35200000
@@ -1043,7 +1059,6 @@ FC Barcelona,2009-2010,Spain,88500000
 Villarreal CF,2009-2010,Spain,22500000
 Sevilla FC,2009-2010,Spain,24000000
 Atlético Madrid,2009-2010,Spain,13500000
-Sporting CP,2009-2010,Spain,10140000
 Real Zaragoza,2009-2010,Spain,9000000
 Valencia CF,2009-2010,Spain,5000000
 Getafe CF,2009-2010,Spain,4000000
@@ -1069,14 +1084,11 @@ Real Madrid CF,2012-2013,Spain,30000000
 FC Barcelona,2012-2013,Spain,33000000
 Real Sociedad,2012-2013,Spain,14000000
 Valencia CF,2012-2013,Spain,20700000
-Swansea City,2012-2013,Spain,7000000
-Wigan Athletic,2012-2013,Spain,9800000
 Granada CF,2012-2013,Spain,5000000
 Sevilla FC,2012-2013,Spain,7500000
 Atlético Madrid,2012-2013,Spain,3500000
 Real Madrid CF,2013-2014,Spain,175500000
 FC Barcelona,2013-2014,Spain,101200000
-Arsenal,2013-2014,Spain,47000000
 Sevilla FC,2013-2014,Spain,23500000
 Atlético Madrid,2013-2014,Spain,30000000
 Athletic Club de Bilbao,2013-2014,Spain,12000000
@@ -1088,7 +1100,6 @@ Real Madrid CF,2014-2015,Spain,123000000
 Atlético Madrid,2014-2015,Spain,111000000
 Valencia CF,2014-2015,Spain,49800000
 Real Sociedad,2014-2015,Spain,12000000
-Aston Villa,2014-2015,Spain,10200000
 Villarreal CF,2014-2015,Spain,16200000
 Sevilla FC,2014-2015,Spain,5500000
 Atlético Madrid,2015-2016,Spain,136860000
@@ -1097,7 +1108,6 @@ Real Madrid CF,2015-2016,Spain,68500000
 Valencia CF,2015-2016,Spain,141500000
 Villarreal CF,2015-2016,Spain,31500000
 Real Sociedad,2015-2016,Spain,22200000
-Fiorentina,2015-2016,Spain,15000000
 Sevilla FC,2015-2016,Spain,31000000
 Athletic Club de Bilbao,2015-2016,Spain,8000000
 RC Deportivo de La Coruña,2015-2016,Spain,6500000
@@ -1106,7 +1116,6 @@ Real Madrid CF,2016-2017,Spain,30000000
 Atlético Madrid,2016-2017,Spain,53200000
 Valencia CF,2016-2017,Spain,32500000
 Sevilla FC,2016-2017,Spain,51000000
-Swansea City,2016-2017,Spain,18000000
 Villarreal CF,2016-2017,Spain,41750000
 Real Betis,2016-2017,Spain,7500000
 Real Sociedad,2016-2017,Spain,7000000
@@ -1116,7 +1125,6 @@ Atlético Madrid,2017-2018,Spain,102000000
 Athletic Club de Bilbao,2017-2018,Spain,32000000
 Real Madrid CF,2017-2018,Spain,40500000
 Sevilla FC,2017-2018,Spain,56700000
-FC Porto,2017-2018,Spain,20000000
 Valencia CF,2017-2018,Spain,41000000
 Villarreal CF,2017-2018,Spain,40000000
 RC Celta de Vigo,2017-2018,Spain,13000000
@@ -1138,5 +1146,4 @@ FC Basel,2002-2003,Switzerland,2000000
 FC Basel,2003-2004,Switzerland,1600000
 FC Basel,2004-2005,Switzerland,1750000
 FC Sochaux-Montbéliard,2009-2010,Switzerland,4000000
-Bayer 04 Leverkusen,2009-2010,Switzerland,3800000
 FC Basel,2018-2019,Switzerland,4500000
