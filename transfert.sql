@@ -35,7 +35,7 @@ DROP TABLE Team;
 ---------- TEAM ATTRIBUT TABLE CREATION --------- 
 CREATE TABLE `Team_Attributes` (
 	`id`	INTEGER PRIMARY KEY AUTO_INCREMENT,
-	`team_api_id`	INTEGER UNIQUE,
+	`team_api_id`	INTEGER,
 	`team_fifa_api_id`	INTEGER,
 	`date`	TEXT,
 	`buildUpPlaySpeed`	INTEGER,
@@ -135,18 +135,161 @@ ON Team (team_long_name);
 -----------------------------------
 ALTER TABLE team
 MODIFY COLUMN team_long_name varchar(255);
-----------------------------------
+----------------Transfert table------------------
+
+
+CREATE TABLE "Transfert" (
+    player_id  INT,
+    `Name` varchar(255),
+    `Position` varchar(255),
+    Age INT,
+    Team_from varchar(255),
+    League_from varchar(255),
+    Team_to varchar(255),
+    League_to varchar(255),
+    Market_value int,
+    Transfert_fee int);
+
+
+
+----------
 ALTER TABLE transfert MODIFY COLUMN player_id int null; 
-ALTER TABLE Transfert1 
+ALTER TABLE Transfert 
    ADD FOREIGN KEY (player_id) REFERENCES Player (player_fifa_api_id);
-ALTER TABLE Transfert1 
+ALTER TABLE Transfert 
    ADD FOREIGN KEY (League_from) REFERENCES League (name);
    ALTER TABLE Transfert 
    ADD FOREIGN KEY (League_to) REFERENCES League (name);
       ALTER TABLE Transfert 
    ADD FOREIGN KEY (Team_from) REFERENCES Team (team_long_name);
-      ALTER TABLE Transfert1 
+      ALTER TABLE Transfert 
    ADD FOREIGN KEY (Team_to) REFERENCES Team (team_long_name);
+
+
+
+----------------------------------------------
+CREATE TABLE `Match` (
+	`id`	INTEGER PRIMARY KEY AUTO_INCREMENT,
+	`country_id`	INTEGER,
+	`league_id`	INTEGER,
+	`season`	TEXT,
+	`stage`	INTEGER,
+	`date`	TEXT,
+	`match_api_id`	INTEGER UNIQUE,
+	`home_team_api_id`	INTEGER,
+	`away_team_api_id`	INTEGER,
+	`home_team_goal`	INTEGER,
+	`away_team_goal`	INTEGER,
+	`home_player_X1`	INTEGER,
+	`home_player_X2`	INTEGER,
+	`home_player_X3`	INTEGER,
+	`home_player_X4`	INTEGER,
+	`home_player_X5`	INTEGER,
+	`home_player_X6`	INTEGER,
+	`home_player_X7`	INTEGER,
+	`home_player_X8`	INTEGER,
+	`home_player_X9`	INTEGER,
+	`home_player_X10`	INTEGER,
+	`home_player_X11`	INTEGER,
+	`away_player_X1`	INTEGER,
+	`away_player_X2`	INTEGER,
+	`away_player_X3`	INTEGER,
+	`away_player_X4`	INTEGER,
+	`away_player_X5`	INTEGER,
+	`away_player_X6`	INTEGER,
+	`away_player_X7`	INTEGER,
+	`away_player_X8`	INTEGER,
+	`away_player_X9`	INTEGER,
+	`away_player_X10`	INTEGER,
+	`away_player_X11`	INTEGER,
+	`home_player_Y1`	INTEGER,
+	`home_player_Y2`	INTEGER,
+	`home_player_Y3`	INTEGER,
+	`home_player_Y4`	INTEGER,
+	`home_player_Y5`	INTEGER,
+	`home_player_Y6`	INTEGER,
+	`home_player_Y7`	INTEGER,
+	`home_player_Y8`	INTEGER,
+	`home_player_Y9`	INTEGER,
+	`home_player_Y10`	INTEGER,
+	`home_player_Y11`	INTEGER,
+	`away_player_Y1`	INTEGER,
+	`away_player_Y2`	INTEGER,
+	`away_player_Y3`	INTEGER,
+	`away_player_Y4`	INTEGER,
+	`away_player_Y5`	INTEGER,
+	`away_player_Y6`	INTEGER,
+	`away_player_Y7`	INTEGER,
+	`away_player_Y8`	INTEGER,
+	`away_player_Y9`	INTEGER,
+	`away_player_Y10`	INTEGER,
+	`away_player_Y11`	INTEGER,
+	`home_player_1`	INTEGER,
+	`home_player_2`	INTEGER,
+	`home_player_3`	INTEGER,
+	`home_player_4`	INTEGER,
+	`home_player_5`	INTEGER,
+	`home_player_6`	INTEGER,
+	`home_player_7`	INTEGER,
+	`home_player_8`	INTEGER,
+	`home_player_9`	INTEGER,
+	`home_player_10`	INTEGER,
+	`home_player_11`	INTEGER,
+	`away_player_1`	INTEGER,
+	`away_player_2`	INTEGER,
+	`away_player_3`	INTEGER,
+	`away_player_4`	INTEGER,
+	`away_player_5`	INTEGER,
+	`away_player_6`	INTEGER,
+	`away_player_7`	INTEGER,
+	`away_player_8`	INTEGER,
+	`away_player_9`	INTEGER,
+	`away_player_10`	INTEGER,
+	`away_player_11`	INTEGER,
+	`goal`	TEXT,
+	`shoton`	TEXT,
+	`shotoff`	TEXT,
+	`foulcommit`	TEXT,
+	`card`	TEXT,
+	`cross`	TEXT,
+	`corner`	TEXT,
+	`possession`	TEXT,
+	`B365H`	NUMERIC,
+	`B365D`	NUMERIC,
+	`B365A`	NUMERIC,
+	`BWH`	NUMERIC,
+	`BWD`	NUMERIC,
+	`BWA`	NUMERIC,
+	`IWH`	NUMERIC,
+	`IWD`	NUMERIC,
+	`IWA`	NUMERIC,
+	`LBH`	NUMERIC,
+	`LBD`	NUMERIC,
+	`LBA`	NUMERIC,
+	`PSH`	NUMERIC,
+	`PSD`	NUMERIC,
+	`PSA`	NUMERIC,
+	`WHH`	NUMERIC,
+	`WHD`	NUMERIC,
+	`WHA`	NUMERIC,
+	`SJH`	NUMERIC,
+	`SJD`	NUMERIC,
+	`SJA`	NUMERIC,
+	`VCH`	NUMERIC,
+	`VCD`	NUMERIC,
+	`VCA`	NUMERIC,
+	`GBH`	NUMERIC,
+	`GBD`	NUMERIC,
+	`GBA`	NUMERIC,
+	`BSH`	NUMERIC,
+	`BSD`	NUMERIC,
+	`BSA`	NUMERIC,
+	FOREIGN KEY(`home_team_api_id`) REFERENCES `Team`(`team_api_id`),
+	FOREIGN KEY(`away_team_api_id`) REFERENCES `Team`(`team_api_id`)
+); 
+----------------------------------------------
+
+
 
 --------------LOAD CSV DATA TO THE DATA BASE  --------
   -- SET GLOBAL local_infile = true;
@@ -202,17 +345,78 @@ SET GLOBAL sql_mode=(SELECT REPLACE(@@sql_mode,'ONLY_FULL_GROUP_BY',''));
 
 
 ------------- 1er query -------------- 
+select transfert.team_to, transfert.season, league.country_name , sum(transfert.transfert_fee) 
+from team, league, transfert
+where team.team_long_name = transfert.team_to and league.name = transfert.league_to
+group by team.team_long_name, season;
+
+
 select transfert.team_to, transfert.season, league.country_name , sum(transfert.transfert_fee) as fees 
 from team, league, transfert
 where team.team_long_name = transfert.team_to and league.name = transfert.league_to
-group by team.team_long_name;
+group by team.team_long_name
+order by fees desc;
+
 ---------------------------------
 
 --------------- 2nd query -------------- 
 SELECT transfert.team_to, league.country_name , RANK() OVER (ORDER BY sum(transfert.transfert_fee) desc) as fees 
 FROM team, league, transfert
 WHERE team.team_long_name = transfert.team_to and league.name = transfert.league_to
-GROUP BY team.team_long_name;
+GROUP BY team.team_long_name limit 10;
 -------------------------------------
 
+---------------  3rd query --------------------
+select team.team_long_name , sum(player.wage_eur)  as wages
+from team, league, transfert, player
+where team.team_long_name = transfert.team_to and league.name = transfert.league_to and player.player_fifa_api_id = transfert.player_id
+group by team.team_long_name
+ORDER BY wages DESC;
+-----------------4th query --------------------
+SELECT team_long_name, team_api_id, home_goales, match_home ,count(match_api_id) as match_away , sum(`Match`.away_team_goal)  as away_goales
+FROM (SELECT team_long_name, team_api_id , count(match_api_id) as match_home ,  sum(`Match`.home_team_goal)  as home_goales       
+      FROM (select * from team where  team.team_long_name ='Paris Saint-Germain') as q1, `Match`
+       where  `Match`.home_team_api_id = q1.team_api_id   and `Match`.date >= '2012-12-26 00:00:00'
+     ) as q2, `Match`
+       where  `Match`.away_team_api_id = team_api_id   and `Match`.date >= '2012-12-26 00:00:00';
+       
+       
+       --------
+     --  group by rollup( home_goales, match_home, away_goales, match_away);
+   SELECT team_long_name, team_api_id, home_goales, match_home ,count(match_api_id) as match_away , sum(`Match`.away_team_goal)  as away_goales
+FROM (SELECT team_long_name, team_api_id , count(match_api_id) as match_home ,  sum(`Match`.home_team_goal)  as home_goales       
+      FROM (select * from team where  team.team_long_name ='Paris Saint-Germain') as q1, `Match`
+       where  `Match`.home_team_api_id = q1.team_api_id   and `Match`.date <= '2012-12-26 00:00:00'
+     ) as q2, `Match`
+       where  `Match`.away_team_api_id = team_api_id   and `Match`.date <= '2012-12-26 00:00:00';  
+     -----------------------------------------------------
+     SELECT team_long_name, team_api_id, conceded_home_goales, match_home ,count(match_api_id) as match_away , sum(`Match`.home_team_goal)  as concede_away_goales
+FROM (SELECT team_long_name, team_api_id , count(match_api_id) as match_home ,  sum(`Match`.away_team_goal)  as conceded_home_goales       
+      FROM (select * from team where  team.team_long_name ='Paris Saint-Germain') as q1, `Match`
+       where  `Match`.home_team_api_id = q1.team_api_id   and `Match`.date >= '2012-12-26 00:00:00'
+     ) as q2, `Match`
+       where  `Match`.away_team_api_id = team_api_id   and `Match`.date >= '2012-12-26 00:00:00';
+       
+       SELECT team_long_name, team_api_id, conceded_home_goales, match_home ,count(match_api_id) as match_away , sum(`Match`.home_team_goal)  as concede_away_goales
+FROM (SELECT team_long_name, team_api_id , count(match_api_id) as match_home ,  sum(`Match`.away_team_goal)  as conceded_home_goales       
+      FROM (select * from team where  team.team_long_name ='Paris Saint-Germain') as q1, `Match`
+       where  `Match`.home_team_api_id = q1.team_api_id   and `Match`.date <= '2012-12-26 00:00:00'
+     ) as q2, `Match`
+       where  `Match`.away_team_api_id = team_api_id   and `Match`.date <= '2012-12-26 00:00:00';
+       
+       
+     
+     
+     
+     
+     
+     
+     
+     --------------------------------------------------------------
+select team_long_name, team_api_id , sum(`Match`.home_team_goal)  as goales
+from (select * from team where  team.team_long_name ='Paris Saint-Germain') as q1, `Match`
+ where  `Match`.home_team_api_id = q1.team_api_id  or  `Match`.away_team_api_id = q1.team_api_id   and `Match`.date >= '2012-12-26 00:00:00';
 
+select * from team where  team.team_long_name ='Paris Saint-Germain';
+
+select * from `Match` where `Match`.home_team_api_id = '9847' or `Match`.away_team_api_id ='9847'  and `Match`.date <= '2012-12-26 00:00:00';
