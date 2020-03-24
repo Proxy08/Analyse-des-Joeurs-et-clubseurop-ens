@@ -1,3 +1,5 @@
+-------reproduce Ony once --------
+
 ------- CREATE DATABASE --------
 CREATE DATABASE transferts;
 --------USE DATABASE -------
@@ -6,7 +8,7 @@ use transferts;
 CREATE TABLE Player (
     id                  INTEGER NOT NULL PRIMARY KEY AUTO_INCREMENT,
     player_api_id       INTEGER NOT NULL,
-    player_name         TEXT,
+    player_name         VARCHAR(255),
     player_fifa_api_id  INTEGER NOT NULL,
     birthday            TEXT,
     height              INTEGER,
@@ -28,7 +30,7 @@ CREATE TABLE `Team` (
 	`id`	INTEGER PRIMARY KEY AUTO_INCREMENT,
 	`team_api_id`	INTEGER UNIQUE,
 	`team_fifa_api_id`	INTEGER ,
-	`team_long_name`	TEXT,
+	`team_long_name`	VARCHAR(255),
 	`team_short_name`	TEXT
 );
 DROP TABLE Team;
@@ -406,8 +408,13 @@ FROM (SELECT team_long_name, team_api_id , count(match_api_id) as match_home ,  
        
        
      
+     ------------------------------------------------
+    
+     select * from transfert where season ='2013-2014' order by transfert_fee desc;
      
-     
+     select distinct (transfert.name), transfert.age, player_attributes.potential from 
+     transfert, player, player_attributes
+     where transfert.season ='2013-2014' and transfert.name='Neymar' and player.player_fifa_api_id = transfert.player_id and player_attributes.player_fifa_api_id =player.player_fifa_api_id  ;
      
      
      
