@@ -29,6 +29,5 @@ Requirements:
 
 # Documentation
 
-A presentation is available[here](https://docs.google.com/presentation/d/120rr6SOE4nu5zY8gOqrTKmjfWfkZVAWKOPvhLn57xwc/edit?usp=sharing).
-
+A presentation is available[here](https://docs.google.com/presentation/d/120rr6SOE4nu5zY8gOqrTKmjfWfkZVAWKOPvhLn57xwc/edit?usp=sharing)
 A report is available [here]().
