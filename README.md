@@ -22,9 +22,13 @@ Requirements:
  git clone https://github.com/Proxy08/Analyse-des-tranferts-et-des-joueurs.git
 ```
 
-# Authors
+# Contributors
 * **Marvel OYOGHO LAWSON**
 * **Sami AL RAHMOUN**
 * **Mamadou DIALLO**
+
 # Documentation
-A report is available [here]()
+
+A presentation is available[here](https://docs.google.com/presentation/d/120rr6SOE4nu5zY8gOqrTKmjfWfkZVAWKOPvhLn57xwc/edit?usp=sharing).
+
+A report is available [here]().

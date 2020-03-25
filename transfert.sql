@@ -373,8 +373,7 @@ FROM (SELECT team_long_name, team_api_id , count(match_api_id) as match_home ,  
        where  `Match`.away_team_api_id = team_api_id   and `Match`.date >= '2012-12-26 00:00:00';
        
        
-       ---------------4th part 2 
-     --  group by rollup( home_goales, match_home, away_goales, match_away);
+       ---------------4th part 2 -------
    SELECT team_long_name, team_api_id, home_goales , match_home ,count(match_api_id) as match_away , sum(`Match`.away_team_goal)  as away_goales
 FROM (SELECT team_long_name, team_api_id , count(match_api_id) as match_home ,  sum(`Match`.home_team_goal)  as home_goales       
       FROM (select * from team where  team.team_long_name ='Paris Saint-Germain') as q1, `Match`
@@ -406,9 +405,9 @@ FROM (SELECT team_long_name, team_api_id , count(match_api_id) as match_home ,  
     -----------------------------------    
  ---------------------------------6th query part 1------------------
      
-     select league_to , right(season,4) as season,market_value, transfert_fee  from transfert;
+
      
-     SELECT league_to , season,market_value, transfert_fee
+     SELECT league_to ,market_value, transfert_fee
      FROM (select league_to , right(season,4) as season,market_value, transfert_fee  from transfert) as t1
      WHERE season >= '2013'   and market_value >0
      group by league_to
@@ -422,8 +421,6 @@ FROM (SELECT team_long_name, team_api_id , count(match_api_id) as match_home ,  
      order by transfert_fee desc ;
      ---------------------------------------------
      
-     SELECT * FROM transfert;
-     
      -----------------------  7th query ---------------------------------------
      
 select   league.country_name  , count(transfert.team_to) as  destination 
@@ -432,13 +429,19 @@ where team.team_long_name = transfert.team_to and league.name = transfert.league
 group by league.name
 order by destination desc;
      
-     
-     select * from transfert;
-     ----------------------------------------------------------
-select team_long_name, team_api_id , sum(`Match`.home_team_goal)  as goales
-from (select * from team where  team.team_long_name ='Paris Saint-Germain') as q1, `Match`
- where  `Match`.home_team_api_id = q1.team_api_id  or  `Match`.away_team_api_id = q1.team_api_id   and `Match`.date >= '2012-12-26 00:00:00';
+     ------------ 8th ---------
+     select transfert.team_to, position , avg(transfert_fee)  as  salary
+from transfert
+group by transfert.team_to, transfert.position with rollup;
 
-select * from team where  team.team_long_name ='Paris Saint-Germain';
 
-select * from `Match` where `Match`.home_team_api_id = '9847' or `Match`.away_team_api_id ='9847'  and `Match`.date <= '2012-12-26 00:00:00';
+select transfert.team_to, position, league.country_name , sum(transfert.transfert_fee) as fees 
+from team, league, transfert
+where team.team_long_name = transfert.team_to and league.name = transfert.league_to
+group by team.team_long_name, position with rollup
+order by fees desc;     
+
+
+--------
+
+    -------------------------------
