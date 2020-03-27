@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AE5C12C0-7BEF-51DD-16FE-9A7B6879AA90" schemaObject="E326EA00-7B4C-94AB-F4D7-7422A7DC031A" name="Team">
+<createdBy>darkkingmarvel</createdBy>
+<createdTime>2020-03-27 16:46:03 UTC</createdTime>
+<ownerDesignName>transfert-schema-etoile-flocon</ownerDesignName>
+<importedID>29458A0C-67E7-03D2-A6FC-7144AD7ADF36</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="EE6BFC1C-AB25-2732-31BF-FEAAF2FACEB1">
+<createdBy>darkkingmarvel</createdBy>
+<createdTime>2020-03-27 16:46:03 UTC</createdTime>
+<ownerDesignName>transfert-schema-etoile-flocon</ownerDesignName>
+<importedID>5FD6A273-CB08-3E4E-8410-E84E4CD1FF49</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="team_api_id" id="52DBB716-1296-EEC9-3F96-480E5FEAF86F">
+<createdBy>darkkingmarvel</createdBy>
+<createdTime>2020-03-27 16:46:03 UTC</createdTime>
+<ownerDesignName>transfert-schema-etoile-flocon</ownerDesignName>
+<importedID>AF51E325-35CD-699F-E886-1CCD47C2633E</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="team_fifa_api_id" id="9263739E-9ADB-B556-4C34-2A3F2309D43E">
+<createdBy>darkkingmarvel</createdBy>
+<createdTime>2020-03-27 16:46:03 UTC</createdTime>
+<ownerDesignName>transfert-schema-etoile-flocon</ownerDesignName>
+<importedID>F0EDEE13-2BD6-F117-2D19-8770DC43B15F</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="team_long_name" id="80D47BBB-5D03-E2E9-6D7C-466702F31849">
+<createdBy>darkkingmarvel</createdBy>
+<createdTime>2020-03-27 16:46:03 UTC</createdTime>
+<ownerDesignName>transfert-schema-etoile-flocon</ownerDesignName>
+<importedID>F78ED4F1-2A78-BF89-C9BE-5C2272296B49</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="team_short_name" id="8F03DFF2-CC29-8158-A7D0-7F248CF382FC">
+<createdBy>darkkingmarvel</createdBy>
+<createdTime>2020-03-27 16:46:03 UTC</createdTime>
+<ownerDesignName>transfert-schema-etoile-flocon</ownerDesignName>
+<importedID>B76DE6B0-831D-75F1-F23D-07E23D1F3885</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F506E487-0280-CBF6-2FCD-809C9740199C" name="PRIMARYv4">
+<createdBy>darkkingmarvel</createdBy>
+<createdTime>2020-03-27 16:46:03 UTC</createdTime>
+<ownerDesignName>transfert-schema-etoile-flocon</ownerDesignName>
+<importedID>BCA81E6C-B8D9-C992-5336-3AA34AB923BE</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EE6BFC1C-AB25-2732-31BF-FEAAF2FACEB1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EF6BED35-AD6A-FCE2-2E6A-B54EFBF22C26" name="team_api_id">
+<createdBy>darkkingmarvel</createdBy>
+<createdTime>2020-03-27 16:46:03 UTC</createdTime>
+<ownerDesignName>transfert-schema-etoile-flocon</ownerDesignName>
+<importedID>0A6FFF8E-6984-A415-2051-36AD9F59E0CB</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="52DBB716-1296-EEC9-3F96-480E5FEAF86F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D8D72C72-8268-1A50-0126-69AEF6DCB194" name="team_fifa_api_id">
+<createdBy>darkkingmarvel</createdBy>
+<createdTime>2020-03-27 16:46:03 UTC</createdTime>
+<ownerDesignName>transfert-schema-etoile-flocon</ownerDesignName>
+<importedID>67F6BF79-DE1B-8D54-EAFF-BB2E0D1EDFAB</importedID>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9263739E-9ADB-B556-4C34-2A3F2309D43E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A50E6B0E-10B8-D8DA-2588-441AF9146A67" name="team_long_name">
+<createdBy>darkkingmarvel</createdBy>
+<createdTime>2020-03-27 16:46:03 UTC</createdTime>
+<ownerDesignName>transfert-schema-etoile-flocon</ownerDesignName>
+<importedID>A3C72CE5-C899-78F4-5E7F-30350D8F8EA3</importedID>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="80D47BBB-5D03-E2E9-6D7C-466702F31849"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

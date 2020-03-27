@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.relational.DPVRelationalSubView" name="player_stats - SubView_3" id="4F195408-BCC4-6AB8-EC97-56275CA5C583">
+<createdBy>darkkingmarvel</createdBy>
+<modifiedBy>darkkingmarvel</modifiedBy>
+<createdTime>2020-03-27 16:46:03 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<generatorId>067C813A-C9D7-33B2-3F6E-6E856E90ED4B</generatorId>
+<importedid>067C813A-C9D7-33B2-3F6E-6E856E90ED4B</importedid>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="0BC12CBC-1895-2FAA-0D67-7075B01D9C8B" otype="Table" vid="13BED8AC-01E5-0A9F-75B5-8410FAF8A986">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="20" y="20" width="254" height="433"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="AE5C12C0-7BEF-51DD-16FE-9A7B6879AA90" otype="Table" vid="C608F8AB-C6F0-4031-8DE5-4027D22E7316">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="20" y="513" width="220" height="154"/>
+</OView>
+</objectViews>
+<connectors>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="646EFD6F-F656-48D4-6934-D41C51A929F2" otype="FKIndexAssociation" vid_source="C608F8AB-C6F0-4031-8DE5-4027D22E7316" vid_target="13BED8AC-01E5-0A9F-75B5-8410FAF8A986">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="145" y="513"/>
+<point x="145" y="453"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="EA81176B-BCE1-9B73-C5A0-205DD58A91F0" otype="FKIndexAssociation" vid_source="C608F8AB-C6F0-4031-8DE5-4027D22E7316" vid_target="13BED8AC-01E5-0A9F-75B5-8410FAF8A986">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="130" y="513"/>
+<point x="130" y="453"/>
+</points>
+</Connector>
+</connectors>
+</Diagram>

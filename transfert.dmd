@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="transfert" id="9545D8BD-E518-286B-DE49-2813CD45CEC8" version="3.5">
-<createdBy>darkkingmarvel</createdBy>
-<createdTime>2020-03-25 02:15:55 UTC</createdTime>
-<ownerDesignName>transfert</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>9545D8BD-E518-286B-DE49-2813CD45CEC8</designId>
-</OSDM_Design>

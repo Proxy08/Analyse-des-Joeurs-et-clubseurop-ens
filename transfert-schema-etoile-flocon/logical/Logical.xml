@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="03518A85-74B8-EBC5-F12F-79886C41E532" mainViewID="F121D5CD-1261-09DA-E4B2-00234CE05E22">
+<createdBy>darkkingmarvel</createdBy>
+<createdTime>2020-03-27 16:43:48 UTC</createdTime>
+<ownerDesignName>transfert-schema-etoile-flocon</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

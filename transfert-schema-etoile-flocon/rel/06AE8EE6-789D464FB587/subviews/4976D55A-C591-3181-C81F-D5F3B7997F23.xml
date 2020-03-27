@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.relational.DPVRelationalSubView" name="player_stats - SubView_1" id="4976D55A-C591-3181-C81F-D5F3B7997F23">
+<createdBy>darkkingmarvel</createdBy>
+<modifiedBy>darkkingmarvel</modifiedBy>
+<createdTime>2020-03-27 16:46:03 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<generatorId>858FF2E7-F5FD-9309-CF14-503CCE42709D</generatorId>
+<importedid>858FF2E7-F5FD-9309-CF14-503CCE42709D</importedid>
+<notation>1</notation>
+</Diagram>

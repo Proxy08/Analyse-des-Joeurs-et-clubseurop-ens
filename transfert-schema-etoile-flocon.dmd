@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="transfert-schema-etoile-flocon" id="2B343042-CE32-B276-9C50-348BF432AE62" version="3.5">
+<createdBy>darkkingmarvel</createdBy>
+<createdTime>2020-03-27 16:43:48 UTC</createdTime>
+<ownerDesignName>transfert-schema-etoile-flocon</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>2B343042-CE32-B276-9C50-348BF432AE62</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="2B9881FB-8F65-2D78-4511-643736469587">
+<designStoragePath>/</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="2CD795E8-6299-63A4-5BB0-A19786EE9B2B">
+<designStoragePath>/Users/darkkingmarvel/Desktop/Master 1/base de donnee/transfert</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

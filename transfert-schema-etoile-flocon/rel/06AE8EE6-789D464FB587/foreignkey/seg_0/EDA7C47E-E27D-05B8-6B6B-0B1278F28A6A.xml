@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EDA7C47E-E27D-05B8-6B6B-0B1278F28A6A" containerWithKeyObject="E6EC03AC-B472-EF2F-2BBF-13ACE958C0E1" localFKIndex="0529B094-4783-A39A-51A9-5AFBBE835118" name="match_ibfk_2">
+<createdBy>darkkingmarvel</createdBy>
+<createdTime>2020-03-27 16:46:03 UTC</createdTime>
+<ownerDesignName>transfert-schema-etoile-flocon</ownerDesignName>
+<importedID>73B3FA4F-FC62-EF45-D640-EC6DE8CEBFA0</importedID>
+<referredTableLongName>null.League</referredTableLongName>
+<deleteRule>RESTRICT</deleteRule>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

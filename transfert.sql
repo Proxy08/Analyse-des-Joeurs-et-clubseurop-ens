@@ -442,6 +442,5 @@ group by team.team_long_name, position with rollup
 order by fees desc;     
 
 
---------
 
     -------------------------------

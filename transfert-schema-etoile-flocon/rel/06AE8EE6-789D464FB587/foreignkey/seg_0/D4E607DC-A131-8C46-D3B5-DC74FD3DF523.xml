@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D4E607DC-A131-8C46-D3B5-DC74FD3DF523" containerWithKeyObject="DD5541C3-3E8C-57EC-DC18-2BFBE975DCDE" localFKIndex="BAFEFD87-E8C1-603C-6205-717A355BFC28" name="Transfert_Player_FK">
+<createdBy>darkkingmarvel</createdBy>
+<createdTime>2020-03-27 17:06:06 UTC</createdTime>
+<ownerDesignName>transfert-schema-etoile-flocon</ownerDesignName>
+<referredTableLongName>transferts.Player</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A4CEBAE5-8882-541E-39C6-BECDC9B6473D</referredTableID>
+<keyObject>C29DE5DD-0734-7EC7-E0AF-14E636A8BDA2</keyObject>
+<referredKeyID>C29DE5DD-0734-7EC7-E0AF-14E636A8BDA2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorColumn>D2C61022-D011-6748-0D9A-68FFA1AA802E</discriminatorColumn>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

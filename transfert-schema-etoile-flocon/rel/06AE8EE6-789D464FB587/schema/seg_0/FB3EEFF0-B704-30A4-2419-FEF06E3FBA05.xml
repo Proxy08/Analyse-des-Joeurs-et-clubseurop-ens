@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="Football" directorySegmentName="seg_0" id="FB3EEFF0-B704-30A4-2419-FEF06E3FBA05">
+<createdBy>darkkingmarvel</createdBy>
+<createdTime>2020-03-27 16:46:03 UTC</createdTime>
+<ownerDesignName>transfert-schema-etoile-flocon</ownerDesignName>
+<importedID>9F94F1AF-DA48-1590-5AF8-65CB761D255D</importedID>
+</SchemaObject>
