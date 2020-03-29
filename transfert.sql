@@ -348,11 +348,16 @@ from team, league, transfert
 where team.team_long_name = transfert.team_to and league.name = transfert.league_to
 group by team.team_long_name
 order by fees desc;
+select transfert.team_to, transfert.season, league.country_name , sum(transfert.transfert_fee) as fees 
+from team, league, transfert
+where team.team_long_name = transfert.team_to and league.name = transfert.league_to
+group by league.country_name,transfert.season
+order by fees desc;
 
 ---------------------------------
 
 --------------- 2nd query -------------- 
-SELECT transfert.team_to, league.country_name , RANK() OVER (ORDER BY sum(transfert.transfert_fee) desc) as fees 
+SELECT transfert.team_to, league.country_name , RANK() OVER (ORDER BY sum(transfert.transfert_fee) desc) as `rank` 
 FROM team, league, transfert
 WHERE team.team_long_name = transfert.team_to and league.name = transfert.league_to
 GROUP BY team.team_long_name limit 10;
@@ -430,17 +435,24 @@ group by league.name
 order by destination desc;
      
      ------------ 8th ---------
-     select transfert.team_to, position , avg(transfert_fee)  as  salary
-from transfert
-group by transfert.team_to, transfert.position with rollup;
 
 
-select transfert.team_to, position, league.country_name , sum(transfert.transfert_fee) as fees 
-from team, league, transfert
-where team.team_long_name = transfert.team_to and league.name = transfert.league_to
+select transfert.team_to, position, league.country_name , avg(player.wage_eur) as wages 
+from team, league, transfert, player
+where team.team_long_name = transfert.team_to and league.name = transfert.league_to and player.player_fifa_api_id = transfert.player_id
 group by team.team_long_name, position with rollup
-order by fees desc;     
+order by wages desc;     
+-------------------9th-----------------------
+   select  transfert.name, transfert.age, transfert.market_value as 
+   market,  player.value_eur  from 
+     transfert, player, player_attributes
+     where transfert.season ='2013-2014'  and year(player_attributes.date)='2014' and month(player_attributes.date)='09'  and  player.player_fifa_api_id = transfert.player_id and player_attributes.player_fifa_api_id =player.player_fifa_api_id  
+     order by transfert_fee desc limit 2;
+--------------10th--------------------
+select transfert.name ,transfert.team_to, league.country_name , sum(transfert.transfert_fee) as fees 
+from team, league, transfert, player
+where team.team_long_name = transfert.team_to and league.name = transfert.league_to and player.player_fifa_api_id = transfert.player_id
+group by transfert.name, league.country_name with rollup
+order by fees desc;  
 
 
-
-    -------------------------------
